@@ -1,0 +1,18 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 32: end of line expected.
+    show trollius angry at right Transform(yalign=0.1)
+                                 ^
+
+File "game/script.rpy", line 113: end of line expected.
+    show trollius scheming at right Transform(yalign=0.1)
+                                    ^
+
+File "game/script.rpy", line 161: end of line expected.
+    show trollius victorious at right Transform(yalign=0.1)
+                                      ^
+
+Ren'Py Version: Ren'Py 8.3.7.25031702
+Fri Mar 21 09:37:32 2025

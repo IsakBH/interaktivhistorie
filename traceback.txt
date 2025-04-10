@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 30, in script
+    show trollius angry
+Exception: Image 'trollius' does not accept attributes 'angry'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 30, in script
+    show trollius angry
+  File "/home/isak/Downloads/renpy-8.3.7-sdk/renpy/ast.py", line 1124, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/home/isak/Downloads/renpy-8.3.7-sdk/renpy/ast.py", line 1087, in show_imspec
+    renpy.config.show(name,
+  File "/home/isak/Downloads/renpy-8.3.7-sdk/renpy/exports/displayexports.py", line 477, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "/home/isak/Downloads/renpy-8.3.7-sdk/renpy/display/image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "/home/isak/Downloads/renpy-8.3.7-sdk/renpy/display/displayable.py", line 249, in _duplicate
+    args.extraneous()
+  File "/home/isak/Downloads/renpy-8.3.7-sdk/renpy/display/displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'trollius' does not accept attributes 'angry'.
+
+Linux-6.13.7-zen1-1-zen-x86_64-with-glibc2.41 x86_64
+Ren'Py 8.3.7.25031702
+Teknologiforstaelse 1.0
+Fri Mar 21 09:34:28 2025
